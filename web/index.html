@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="qaz_tracker">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png"/>
+
+  <title>qaz_tracker</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoOhsuvdfKks_0KKIIdrPJ9kzYsnrwENA"></script>
+
+</head>
+<body>
+  <script>
+    {{flutter_js}}
+    {{flutter_build_config}}
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.load({
+        serviceWorker: {
+          serviceWorkerVersion: "{{flutter_service_worker_version}}",
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+  
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyD2zq6B3e9D1rx7Raoqi6FuZyQPNs_MZe4",
+      authDomain: "qaztracker-761ae.firebaseapp.com",
+      projectId: "qaztracker-761ae",
+      storageBucket: "qaztracker-761ae.appspot.com",
+      messagingSenderId: "404952231033",
+      appId: "1:404952231033:web:b34c4924cd995bcc8c78a8",
+      measurementId: "G-MEGJ3R76NG"
+    };
+  
+
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+</body>
+</html>

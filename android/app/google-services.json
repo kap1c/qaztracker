@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "404952231033",
+    "project_id": "qaztracker-761ae",
+    "storage_bucket": "qaztracker-761ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404952231033:android:c86f62aae038dd548c78a8",
+        "android_client_info": {
+          "package_name": "kz.project.qaz_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404952231033-35ve0jfae8u0o6c2uv2n9nvqjlcvo1og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.project.qaz_tracker",
+            "certificate_hash": "99c00d92c52d3106285fcb0fdc031aac005ef0d5"
+          }
+        },
+        {
+          "client_id": "404952231033-60e43ip0pu3t89mcrfd4dpmoije1t840.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyImhHQ_IekD7Xle2MnvNoK-s5UR89yZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404952231033-60e43ip0pu3t89mcrfd4dpmoije1t840.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
